@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["es2015", "es2016", "dom"],
+        "strict": true,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "checkJs": false,
+        "strictNullChecks": true,
+    },
+    "include": [
+        "resources/js/**/*"
+    ]
+}

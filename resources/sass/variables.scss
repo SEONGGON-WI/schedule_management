@@ -1,0 +1,140 @@
+/// Body
+//$body-bg: #f8fafc;
+
+// Typography
+//$font-family-sans-serif: "Nunito", sans-serif;
+//$font-size-base: 0.9rem;
+$font-size-root: 14px;
+$list-item-dense-title-font-size: 13px;
+//$line-height-base: 1.6;
+//$data-table-regular-row-height: 19px;
+//$data-table-regular-row-font-size: 13px;
+//$data-table-dense-row-height:16px;
+// Colors
+/*  
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+*/
+//
+body {
+  background-color: #F0F0F0;
+}
+h1 {
+  padding: 0;
+  margin-top: 0;
+}
+#app {
+  width: auto;
+  margin: auto;
+}
+
+.fixed-header tbody {
+  display: block;
+  overflow: auto;
+  max-height: 480px;
+}
+
+.fixed-header tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.my-event {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 2px;
+  background-color: #1867c0;
+  color: #ffffff;
+  border: 1px solid #1867c0;
+  width: 100%;
+  font-size: 12px;
+  padding: 3px;
+  cursor: pointer;
+  margin-bottom: 1px;
+}
+
+table.v-table tbody td, table.v-table tbody th {
+  height: 19px;   
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td{
+  font-size: 13px !important; 
+}
+
+$restrict_table_height:540px;
+.restrict-table-height .v-data-table__wrapper { 
+  max-height: $restrict_table_height;
+}
+
+//
+.green_l {color:green; font-weight: bold};
+.green_d {color:greenyellow; font-weight: bold};
+.red_l {color:red; font-weight: bold};
+.red_d {color:hotpink; font-weight: bold};
+.orange_l {color:orange; font-weight: bold};
+.orange_d {color:sandybrown; font-weight: bold};
+.grey_d {background-color:black;color:lightgrey};
+.link_d {color:mediumturquoise; font-weight: bold};
+.free_comment_l {color:limegreen;font-style:italic};
+.free_comment_d {color:lime; font-style:italic};
+.comment_l {color:blue;font-style:italic};
+.comment_d {color:skyblue; font-style:italic};
+.draw_d {background-color: white};
+
+.dense-table  td {
+    height: 0px!important;
+    padding-top: 0px!important; 
+    padding-bottom: 0px!important; 
+    margin-top: 1px!important; 
+    margin-bottom: 1px!important; 
+}
+
+.dense-table  .v-input--radio-group {
+    height: 0px!important;
+    padding-top: 0px!important; 
+    padding-bottom: 16px!important; 
+    margin-top: 0px!important; 
+    margin-bottom: 8px!important; 
+}
+
+.news-table > .v-data-table__wrapper > table > tbody > tr > td.text-start{
+  vertical-align: top !important;
+}
+
+.text-area {
+  font-size: 14px !important;
+}
+
+.apexcharts-menu {
+  color: grey !important;
+}
+
+.theme--dark .apexcharts-tooltip {
+  color: black !important;
+}
+
+.theme--dark .apexcharts-legend-text {
+  color: white !important;
+};
+
+.theme--dark .apexcharts-axis-label > tspan {
+  fill: #E0E0E0 !important;
+};
+
+.theme--dark .apexcharts-title-text {
+  fill: white !important;
+};
+
+.clipboard-content {
+  visibility: hidden;
+};
